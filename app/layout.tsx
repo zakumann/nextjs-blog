@@ -22,7 +22,7 @@ export default function RootLayout({
 
   const footer = (
     <footer>
-      <div className="border-t border-slate-400 mt-8 py-6 text-center text-slate-400">
+      <div className="border-t border-slate-400 mt-8 py-6 text-center text-slate-500">
         <h3>Designed by Samuel</h3>
       </div>
     </footer>
@@ -32,7 +32,7 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <div className="mx-auto  max-w-2xl px-6">
+        <div className="bg-slate-100 mx-auto max-w-2xl px-6">
           {header}
           {children}
           {footer}
