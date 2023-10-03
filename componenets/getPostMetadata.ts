@@ -1,6 +1,6 @@
 import fs from "fs";
 import matter from "gray-matter";
-import { PostMetadata } from "../components/PostMetadata";
+import { PostMetadata } from "@/componenets/PostMetadata";
 
 const getPostMetadata = (): PostMetadata[] => {
   const folder = "posts/";
